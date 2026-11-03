@@ -134,6 +134,6 @@ These screenshots show rika! v0.3.30 in the **c** theme and use synthetic sample
 
 ![rika! Modules](docs/screenshots/modules.png)
 
-**Themes:** choose a style and colour theme in Settings → Appearance; c is shown here.
+**Themes:** choose a style and colour theme in Settings → Appearance; SPEED is shown here.
 
-![rika! Theme settings](docs/screenshots/themes.png)
+![rika! Theme settings in SPEED](docs/screenshots/themes-speed.png)
