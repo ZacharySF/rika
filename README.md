@@ -1,139 +1,73 @@
-# rika! desktop downloads
+<p align="center">
+  <img src="docs/assets/rika-hero.svg" width="846" alt="rika! — a home for your beautifully tangled mind. A local-first workspace for connected ideas.">
+</p>
 
-Official Linux x86_64 installers and signed update metadata. Application source is maintained in a separate private repository.
+<p align="center">
+  Notes become connections. Connections become something you can build.<br>
+  A local-first desktop workspace for your notes, documents, study and plans.
+</p>
 
-[Download the latest release](https://github.com/ZacharySF/rika/releases/latest). Install the `.deb` using your software installer, or use the AppImage. Open rika! from the application launcher. Use **Check for updates** inside the desktop app for signed updates.
+<p align="center">
+  <b><a href="https://github.com/ZacharySF/rika/releases/latest">Download for Linux ↗</a></b>
+  &nbsp; / &nbsp; <a href="#install">Install</a>
+  &nbsp; / &nbsp; <a href="#a-look-around">A look around</a><br>
+  <sub>Linux x86_64 · AppImage + .deb · Signed updates</sub>
+</p>
 
-Your workspace is stored separately from the application and retained across updates. Never share your workspace, credentials, resumes or private database in an issue.
+<br>
 
-## Screenshots
+<p align="center"><b>A little less scattered. A lot more connected.</b></p>
 
-These screenshots show rika! v0.3.30 in the **c** theme and use synthetic sample data only.
+<p align="center">
+  <img src="docs/screenshots/home.jpg" width="100%" alt="The rika! home dashboard: a morning brief, today and a quick note on the left; up next, agents and every section in the middle; and the Rika panel on the right with drafted email replies and an Ask Rika box">
+</p>
+<p align="center"><sub>Home: what's next, everything you've got, and Rika on the right with your replies already drafted.</sub></p>
 
-**Welcome:** a short first-run screen; continue locally, or connect Google only if you want to.
+<br>
 
-![rika! welcome screen](docs/screenshots/welcome.png)
+## Install
 
-**Home:** the interactive workspace brain links every section, with a searchable section list and side widgets for today, quick notes, agents and what is up next.
+1. **[Download the latest release.](https://github.com/ZacharySF/rika/releases/latest)**
+2. Install the `.deb` with your software installer, or run the AppImage.
+3. Open rika! from your application launcher and choose **Start locally**.
 
-![rika! home workspace brain](docs/screenshots/home.png)
+<p align="center">
+  <img src="docs/screenshots/welcome.jpg" width="62%" alt="The rika! welcome card: a glowing neural-network brain above the words 'Welcome to rika!', with Continue with Google and Start locally buttons">
+</p>
+<p align="center"><sub>First launch: one button to start locally. No account needed.</sub></p>
 
-**Brain view:** change the brain's layout, grouping, labels, motion, background and section colours.
+**Updates** are signed. Use **Check for updates** inside the app.
+Your workspace lives apart from the application and stays put across updates.
 
-![rika! brain view settings](docs/screenshots/brain-view.png)
+<br>
 
-**2D map:** the same workspace as a flat map of every section and how they connect.
+## A look around
 
-![rika! 2D workspace map](docs/screenshots/home-2d.png)
+### Follow the thread
 
-**Search anything:** Ctrl+K finds pages, jobs and commands, such as a new card, map or job.
+Every record and every edit becomes a glowing point in the **Brain**: a
+neural-network map of everything you've written, studied and planned. Prefer
+flat ground? Switch to the **2D** map.
 
-![rika! command palette](docs/screenshots/command-palette.png)
+<img src="docs/screenshots/brain.jpg" width="100%" alt="The Brain view: a glowing neural-network brain threaded in red, orange, green and blue, above a legend counting applications, jobs, reminders, notes, calendar events and flashcards">
 
-**Rika:** rika!'s own assistant. Ask in the Rika bar, undo its changes, and follow coding agents in the history panel.
+### Only the parts you want
 
-![rika! Rika history and agents](docs/screenshots/rika-agents.png)
+Keep the workspace, add a terminal when you're building, turn on ApplyAI when
+you're looking for work, or download the Brain. Disabled modules disappear;
+their data stays.
 
-**Calendar:** day, week, month, agenda, year and day-plan views, with natural-language quick add.
+<img src="docs/screenshots/modules.jpg" width="100%" alt="Settings › Modules: toggles for ApplyAI, Workspace, Terminal and Brain, with the Brain module marked Installed · 1.6 MB and a Remove button">
 
-![rika! Calendar week view](docs/screenshots/calendar.png)
+<p align="center"><sub>Screenshots use a demo workspace with synthetic data.</sub></p>
 
-**Reminders:** follow-ups and reminders, with quick dates, snooze and delete.
+<br>
 
-![rika! Reminders and follow-ups](docs/screenshots/reminders.png)
+## About this repository
 
-**Study:** a focus timer with drawers for subjects and tasks, the current guide step and session notes.
+This repository holds the official installers and signed update metadata.
+The application source is maintained in a separate private repository.
 
-![rika! Study focus timer](docs/screenshots/study.png)
+**Never share your workspace, credentials, resumes or private database in an issue.**
 
-**Study guide:** a fourteen-step guide for preparing, studying, and reviewing and returning to the material.
-
-![rika! Study guide](docs/screenshots/study-guide.png)
-
-**Exams & plans:** exam countdowns, planned study blocks on a timeline, and spaced returns.
-
-![rika! Exams and study plans](docs/screenshots/exams-plans.png)
-
-**Study progress:** study minutes by day and subject, a streak ring, a month calendar and goals.
-
-![rika! Study progress](docs/screenshots/study-progress.png)
-
-**Math topics:** a topic graph that shows what is locked, ready, being learned or mastered.
-
-![rika! Math topic graph](docs/screenshots/math-topics.png)
-
-**Math lessons:** a worked example, then guided steps, then problems on your own.
-
-![rika! Math lesson](docs/screenshots/math-lesson.png)
-
-**Math sprint:** timed mental-math runs inside a countdown ring.
-
-![rika! Math sprint](docs/screenshots/math-sprint.png)
-
-**Flashcards:** FSRS-scheduled review with typeset math; flip a card, then grade it by key or swipe.
-
-![rika! Flashcard review](docs/screenshots/flashcards.png)
-
-**Card browser:** filter cards and see each card's preview, memory state and recent reviews.
-
-![rika! Flashcard card browser](docs/screenshots/flashcard-cards.png)
-
-**Flashcard stats:** today's queue, a 30-day forecast, card maturity and a review heatmap.
-
-![rika! Flashcard statistics](docs/screenshots/flashcard-stats.png)
-
-**Notes:** notebook pages with block editing, an "On this page" outline, tags and `[[page]]` links.
-
-![rika! Notes editor](docs/screenshots/notes.png)
-
-**Canvas:** draw on any page with pen, highlighter, text and sticky notes.
-
-![rika! Notes canvas](docs/screenshots/canvas.png)
-
-**Quick notes:** a board of tinted scratch notes that can be pinned or popped out.
-
-![rika! Quick notes board](docs/screenshots/quick-notes.png)
-
-**Mind maps:** start from a template, then build, recolour, connect and rearrange topics from the keyboard, mouse or pen.
-
-![rika! Mind map editor](docs/screenshots/mind-maps.png)
-
-**Documents & PDF:** Markdown or rich text with a live preview; export a PDF or turn it into a note page.
-
-![rika! Documents editor](docs/screenshots/documents.png)
-
-**Opportunities & projects:** a map and list of projects and opportunities, with filters and quick add.
-
-![rika! Opportunities map](docs/screenshots/opportunities.png)
-
-**Find jobs:** search, filter and sort job listings, then prepare selected applications for review.
-
-![rika! Find jobs list](docs/screenshots/find-jobs.png)
-
-**Jobs map:** jobs grouped by job type; open a group to see every matching job.
-
-![rika! Jobs map](docs/screenshots/jobs-map.png)
-
-**Applications:** a pipeline from applied to closed for each job type, with days since the last activity.
-
-![rika! Applications pipeline](docs/screenshots/applications.png)
-
-**Mail proposals:** read-only Gmail checks suggest status changes, and only your confirmation moves an application.
-
-![rika! Gmail status proposals](docs/screenshots/gmail-proposals.png)
-
-**AI settings:** your own OpenRouter key, model, routing and daily spending cap, with each request reviewed before it is sent.
-
-![rika! AI settings](docs/screenshots/ai-settings.png)
-
-**Quiet hours:** hold notifications overnight and get them together as a morning digest.
-
-![rika! Quiet hours](docs/screenshots/quiet-hours.png)
-
-**Modules:** turn on job search, the workspace and the terminal separately.
-
-![rika! Modules](docs/screenshots/modules.png)
-
-**Themes:** choose a style and colour theme in Settings → Appearance; SPEED is shown here.
-
-![rika! Theme settings in SPEED](docs/screenshots/themes-speed.png)
+<sub>The wordmark uses <a href="https://fraunces.undercase.xyz">Fraunces</a> by Undercase Type, embedded under the <a href="docs/assets/OFL-Fraunces.txt">SIL Open Font License</a>.</sub>
