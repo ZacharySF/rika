@@ -97,7 +97,7 @@
 
 The files still carry the project's earlier name, `kitty`; the app installs as
 **rika! Workspace** (package `rika-workspace`) and has nothing to do with the
-`kitty` terminal. ARM, Windows and macOS are not supported yet.
+`kitty` terminal. These installers don't cover ARM, Windows or macOS.
 
 <br>
 
