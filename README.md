@@ -108,9 +108,10 @@ The files still carry the project's earlier name, `kitty`; the app installs as
   installer against the key built into it before it touches anything.
 - **Your workspace lives apart from the app.** Notes, databases and settings stay
   in `~/.local/share/kitty/workspace` by default and are reused in place. Updating, replacing
-  or uninstalling the app leaves them alone, so back them up like any personal data.
-  rika! can't restore a whole workspace yet. Device sync between two computers carries
-  notes only (not attachments, calendar, study, jobs or settings), and both must be on.
+  or uninstalling the app leaves them alone. **Settings → Backup** saves the whole
+  workspace to one file and restores it into a new, empty folder (from v0.3.42). Device
+  sync between two computers carries notes only (not attachments, calendar, study, jobs
+  or settings), and both must be on.
 - **Modules download only when you ask.** The Brain, Themes, Voice, Math and
   others come as packs from the same release, checked against a signed list and
   their SHA-256 before they're used.
