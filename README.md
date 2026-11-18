@@ -109,11 +109,16 @@ The files still carry the project's earlier name, `kitty`; the app installs as
 - **Your workspace lives apart from the app.** Notes, databases and settings stay
   in `~/.local/share/kitty/workspace` by default and are reused in place. Updating, replacing
   or uninstalling the app leaves them alone, so back them up like any personal data.
+  rika! can't restore a whole workspace yet. Device sync between two computers carries
+  notes only (not attachments, calendar, study, jobs or settings), and both must be on.
 - **Modules download only when you ask.** The Brain, Themes, Voice, Math and
   others come as packs from the same release, checked against a signed list and
   their SHA-256 before they're used.
 - **No account needed.** Choose **Start locally** and your workspace is one
   SQLite database on your machine; Google sign-in is optional.
+- **Cloud AI is optional.** Rika thinks through [OpenRouter](https://openrouter.ai)
+  on your own key, so what you ask her goes there. Without a key she still runs
+  simple commands.
 
 <br>
 
@@ -203,7 +208,8 @@ modules disappear; their data stays.
 ## About this repository
 
 This repository holds the official installers, module packs and signed update
-metadata. The application source is maintained in a separate private repository.
+metadata. The application source is public at
+[ZacharySF/kitty](https://github.com/ZacharySF/kitty) (MIT).
 The LearnHarness pack includes its corresponding source and licences.
 
 **Never share your workspace, credentials, resumes or private database in an issue.**
